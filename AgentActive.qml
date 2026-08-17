@@ -54,7 +54,7 @@ BarWidget {
   Process {
     id: watchProc
     running: true
-    command: ["bash", Quickshell.env("HOME") + "/.config/omarchy/plugins/azzen.agent-active/agent-watch.sh"]
+    command: ["bash", Quickshell.env("HOME") + "/.config/omarchy/plugins/agent-active/agent-watch.sh"]
     stdout: SplitParser {
       onRead: (data) => root.parseLine(data)
     }
