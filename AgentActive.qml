@@ -16,9 +16,8 @@ BarWidget {
 
   function parseLine(line) {
     var s = String(line || "").trim()
-    if (s.length === 0) return
 
-    if (s.charAt(0) === "-") {
+    if (s.length > 0 && s.charAt(0) === "-") {
       var agent = s.substring(1)
       playSound()
       sendNotification(agent)
