@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "azzen.agent-active",
+  "name": "Agent Active",
+  "version": "1.0.0",
+  "author": "azzen",
+  "license": "MIT",
+  "description": "Shows an icon in the bar while a coding agent (opencode, claude, codex, ...) is running.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "AgentActive.qml"
+  },
+  "barWidget": {
+    "displayName": "Agent Active",
+    "description": "Icon appears in the bar while a coding agent is running.",
+    "category": "AI",
+    "allowMultiple": false
+  }
+}
