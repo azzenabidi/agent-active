@@ -6,7 +6,7 @@ import qs.Ui
 
 BarWidget {
   id: root
-  moduleName: "azzen.agent-active"
+  moduleName: "agent-active"
 
   readonly property string omarchyPath: Quickshell.env("HOME") + "/.local/share/omarchy"
   readonly property string soundPath: "/usr/share/sounds/freedesktop/stereo/complete.oga"
